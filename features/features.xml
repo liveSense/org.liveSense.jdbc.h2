@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<features name="liveSense-${liveSense.version}-jdbc-h2" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+    <feature name="liveSense-jdbc-h2" version="${liveSense.jdbc.h2.version}" description="liveSense H2 JDBC Driver">
+        <feature>liveSense-core-apache-commons</feature>
+		<bundle>mvn:com.github.livesense/org.liveSense.jdbc.h2/${liveSense.jdbc.h2.version}</bundle>
+    </feature>
+</features>

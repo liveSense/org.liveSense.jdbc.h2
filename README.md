@@ -7,20 +7,26 @@ This bundle contains the H2 JDBC driver
 * org.h2(1.3.166)
 
 ## OSGi Dependencies
-* __System Bundle - org.apache.felix.framework (3.0.8)__
+* __System Bundle - org.apache.felix.framework (4.0.3)__
 	* javax.management
 	* javax.naming
 	* javax.naming.spi
 	* javax.net
 	* javax.net.ssl
 	* javax.sql
-	* javax.transaction.xa
 	* org.osgi.framework
-* __Apache Felix Http Jetty - org.apache.felix.http.jetty (2.2.0)__
+* __OPS4J Pax Logging - API - org.ops4j.pax.logging.pax-logging-api (1.7.0)__
+	* org.slf4j
+	* org.slf4j
+	* org.slf4j
+	* org.slf4j
+* __Servlet 3.0 - org.apache.geronimo.specs.geronimo-servlet_3.0_spec (1.0)__
+	* javax.servlet
 	* javax.servlet
 	* javax.servlet.http
-* __slf4j-api - slf4j.api (1.6.1)__
-	* org.slf4j
+	* javax.servlet.http
+* __geronimo-jta_1.1_spec - org.apache.geronimo.specs.geronimo-jta_1.1_spec (1.1.1)__
+	* INFO: javax.transaction.xa
 
 ## OSGi Embedded JARs
 * h2-1.3.166.jar
