@@ -19,6 +19,11 @@
 		<version>2-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
+	<scm>
+		<connection>scm:git:https://github.com/liveSense/org.liveSense.jdbc.h2.git</connection>
+		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.jdbc.h2.git</developerConnection>
+		<url>https://github.com/liveSense/org.liveSense.jdbc.h2</url>
+	</scm>
 
 	<artifactId>org.liveSense.jdbc.h2</artifactId>
 	<version>1.3.166_1-SNAPSHOT</version>
